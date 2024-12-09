@@ -1,6 +1,7 @@
 # BIRDS-20-SPECIES-IMAGE-CLASSIFICATION
 
-This repository contains a project for classifying images of 20 bird species using deep learning. The project leverages a custom CNN architecture and fine-tunes pre-trained models such as ResNet50, DenseNet121, and VGG16 for accurate bird species classification.
+This project involves the need for an automated and scalable method to classify bird species from images. Manual identification is time-consuming and requires expert knowledge. An automated solution can streamline this process, making it more accessible and efficient for various stakeholders such as researchers, conservationists, and hobbyists.
+
 
 ## Table of Contents
 1. [Project Overview](#project-overview)  
@@ -13,7 +14,7 @@ This repository contains a project for classifying images of 20 bird species usi
 8. [Results](#results)
 
 ## Project Overview
-This project addresses the challenge of identifying 20 bird species based on their images. It compares the performance of a custom CNN with pre-trained models on this multi-class classification task. The goal is to build an efficient classifier for bird identification, leveraging transfer learning for enhanced accuracy.
+This repository contains a project for classifying images of 20 bird species using deep learning. The project leverages a custom CNN architecture and fine-tunes pre-trained models such as ResNet50, DenseNet121, and VGG16 for accurate bird species classification.
 
 ## Technologies Used
 - Python 3.x
@@ -57,7 +58,7 @@ There are two ways you can run this project:
 1. Using Google Colab (Recommended for easy setup)
    Download the notebook:
 
-   Visit the GitHub repository and download the S&P500_Forecasting_using_LSTM.ipynb file.
+   Visit the GitHub repository and download the BIRDS 20 SPECIES- IMAGE CLASSIFICATION.ipynb file.
    Upload the notebook to Colab:
 
    Open Google Colab.
@@ -65,7 +66,7 @@ There are two ways you can run this project:
 
 2. Clone this repository:
    ```bash
-   git clone https://github.com/NassiDudi/SPY-sp500--Forecasting-using-LSTM.git
+   git clone https://github.com/NassiDudi/BIRDS-20-SPECIES-IMAGE-CLASSIFICATION.git
    ```
    - Install the required packages
    - Use any IDE that supports Jupyter Notebooks
@@ -113,6 +114,10 @@ The project achieved the following test accuracies:
 | Model         | Test Accuracy |
 |---------------|---------------|
 | Custom CNN    |    53%        |
-| ResNet50      |    77%        |
+| ResNet50      |   100%        |
 | DenseNet121   |    95%        |
-| VGG16         |   100%        |
+| VGG16         |    77%        |
+
+The project successfully implemented a multi-class image classification task, aiming to recognize 20 bird species using deep learning models.
+These results highlight the power of fine-tuning pre-trained models, such as DenseNet121 and ResNet50, to achieve high accuracy in real-world image classification problems. The data augmentation techniques further enhanced the model's robustness, making it resilient to variations in lighting, orientation, and other real-world factors.
+
